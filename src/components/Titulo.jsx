@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 
-function Title({ content }) {
+function Titulo({ content }) {
   return (
     <View>
       <Text
@@ -17,4 +17,4 @@ function Title({ content }) {
   );
 }
 
-export default Title;
+export default Titulo;

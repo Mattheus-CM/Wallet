@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import Input from "../components/Input";
-import Title from "../components/Title";
+import Titulo from "../components/Titulo";
 import Button from "../components/Button";
 import NavText from "../components/NavText";
 
@@ -23,7 +23,7 @@ function Login({ navigation }) {
         justifyContent: "center",
       }}
     >
-      <Title content="Bem Vindo ao MM-Wallet" />
+      <Titulo content="Bem Vindo ao MM-Wallet" />
       <Input placeholder={"Username"} />
       <Input placeholder={"Password"} />
       <Button content="Login" onPress={handleLogin} />

@@ -1,6 +1,6 @@
 import { View } from "react-native";
 import Input from "../components/Input";
-import Title from "../components/Title";
+import Titulo from "../components/Titulo";
 import Button from "../components/Button";
 import NavText from "../components/NavText";
 
@@ -18,7 +18,7 @@ function Register({ navigation }) {
         justifyContent: "center",
       }}
     >
-      <Title content="Registre-se agora e começe a controlar todas as suas contas em um só lugar!" />
+      <Titulo content="Registre-se agora e começe a controlar todas as suas contas em um só lugar!" />
       <Input placeholder={"Username"} />
       <Input placeholder={"Email"} />
       <Input placeholder={"Password"} />
