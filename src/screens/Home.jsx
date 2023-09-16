@@ -33,12 +33,7 @@ function Home() {
       <BalancoDia transferencia={Person.balanco[1]} />
       <BalancoDia transferencia={Person.balanco[2]} />
 
-      <Text>TAB NAVIGATOR DANDO PROBLEMAAAAA</Text>
-      {/* <Tab.Navigator>
-        <Tab.Screen name="Home" component={Home} />
-        <Tab.Screen name="Transferencia" component={Transferencia} />
-        <Tab.Screen name="Profile" component={Profile} />
-      </Tab.Navigator> */}
+      
     </View>
   );
 }
